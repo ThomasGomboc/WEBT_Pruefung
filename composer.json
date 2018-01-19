@@ -1,0 +1,17 @@
+{
+    "name": "ballnamespace",
+    "description": "Ein System mit dem Baelle verkauft werden.",
+    "type": "project",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Thomas Gomboc",
+            "email": "tgomboc@gmx.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ballnamespace\\": "src/"
+        }
+    }
+}
