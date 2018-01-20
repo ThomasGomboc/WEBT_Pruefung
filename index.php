@@ -33,7 +33,7 @@ echo isset($_GET['format']) ? $_GET['format'] : "no format given";
 
 function renderHTML(ballnamespace\Ball $ball): string
 {
-    return $ball;
+    return ' '.$ball;
 }
 
 function renderJSON(ballnamespace\Ball $ball): string
