@@ -21,6 +21,9 @@ echo $MyFussball->getName(); // br für neue Zeile
 $myBallcollection[] = new Basketball('Champion Basketball', 7, 'Kunstleder', 'Puma');
 $myBallcollection[] = new American_Football('Super Bowl Ball 2009', 2, 'Kuh Leder', 3);
 $myBallcollection[] = new VolleyBall('Alter VolleyBall', 5, 'weiches Kunstleder', 0.5);
+$myBallcollection[] = new VolleyBall('neuer VolleyBall', 4, 'weiches Kunstleder', 0.4);
+$myBallcollection[] = new VolleyBall('Champion VolleyBall', 5, 'weiches Kunstleder', 0.3);
+$myBallcollection[] = new VolleyBall('Ausgeborter VolleyBall', 5, 'weiches Kunstleder', 0.8);
 
 foreach($myBallcollection as $ball){
     echo $ball;

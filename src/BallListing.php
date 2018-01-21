@@ -46,8 +46,6 @@ class BallListing
                     echo ('kein Format gegebwn');
                 }
             }
-
-
         } else { */
         foreach ($this->balllist as $auszugebenderBall) {
 
