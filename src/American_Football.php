@@ -31,6 +31,6 @@ class American_Football extends Ball implements Ball_Interface
 
     public function __toString()
     {
-        return $this->getName().' mit dem Material '.$this->getMaterial().' und einem Volumen von '.$this->getVolumen();
+        return $this->getName().' mit dem Material '.$this->getMaterial().' und einem Volumen von '.$this->getVolumen()."<br>";
     }
 }

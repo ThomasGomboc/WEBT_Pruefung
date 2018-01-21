@@ -49,6 +49,6 @@ abstract class Ball
 
     public function __toString()
     {
-        return $this->name.' mit dem Material '.$this->material;
+        return $this->name.' mit dem Material '.$this->material."<br>";
     }
 }

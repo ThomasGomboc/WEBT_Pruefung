@@ -25,6 +25,6 @@ class BallListing
             echo $auszugebenderBall;    //Einfügen eines zeilenumbruchs nicht möglich.
 
         }
-        return 'Alle Elemente der Ball liste wurden ausgegeben';
+        return 'Alle Elemente der Ball liste wurden ausgegeben'."<br>";
     }
 }

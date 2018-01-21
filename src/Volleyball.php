@@ -26,6 +26,6 @@ class Volleyball extends Ball implements Ball_Interface
 
     public function __toString()
     {
-        return $this->getName().' mit dem Material '.$this->getMaterial().', er ist '.$this->gewicht.'kg schwer und hat ein Volumen von '.$this->getVolumen();
+        return $this->getName().' mit dem Material '.$this->getMaterial().', er ist '.$this->gewicht.'kg schwer und hat ein Volumen von '.$this->getVolumen()."<br>";
     }
 }

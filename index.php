@@ -16,17 +16,17 @@ use ballnamespace\BallListing;
 
 $MyFussball = new Fussball('WM Ball', 4, 'Leder', 'Hexagons');
 
-echo $MyFussball->getName()."<br>"; // br für neue Zeile
+echo $MyFussball->getName(); // br für neue Zeile
 
 $myBallcollection[] = new Basketball('Champion Basketball', 7, 'Kunstleder', 'Puma');
 $myBallcollection[] = new American_Football('Super Bowl Ball 2009', 2, 'Kuh Leder', 3);
 $myBallcollection[] = new VolleyBall('Alter VolleyBall', 5, 'weiches Kunstleder', 0.5);
 
 foreach($myBallcollection as $ball){
-    echo $ball."<br>";
+    echo $ball;
 }
 
-echo "<br>"."<br>"."html oder json?"."<br>";
+echo "<br>"."html oder json?"."<br>";
 
 echo isset($_GET['format']) ? $_GET['format'] : "no format given";
 //echo $_GET['name'];
