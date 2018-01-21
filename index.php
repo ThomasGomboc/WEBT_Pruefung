@@ -54,12 +54,12 @@ if (isset($_GET['format'])) {
     if ($_GET['format'] != 'json' && $_GET['format'] != 'html') {
         echo 'no format given';
     }
-
-    echo "<br>"."<br>".'Ballliste augeben:'."<br>";
-    $BallListvar1 = new Basketball('Champion Basketball', 7, 'Kunstleder', 'Puma');
-    $BallListvar2 = new American_Football('Super Bowl Ball 2009', 2, 'Kuh Leder', 3);
-    $BallListvar3 = new VolleyBall('Alter VolleyBall', 5, 'weiches Kunstleder', 0.5);
-
-    $BallListe = new BallListing($BallListvar1, $BallListvar2, $BallListvar3);
-    echo $BallListe;
 }
+
+echo "<br>"."<br>".'Ballliste augeben:'."<br>";
+$BallListvar1 = new Basketball('Champion Basketball', 7, 'Kunstleder', 'Puma');
+$BallListvar2 = new American_Football('Super Bowl Ball 2009', 2, 'Kuh Leder', 3);
+$BallListvar3 = new VolleyBall('Alter VolleyBall', 5, 'weiches Kunstleder', 0.5);
+
+$BallListe = new BallListing($BallListvar1, $BallListvar2, $BallListvar3);
+echo $BallListe;
