@@ -14,6 +14,7 @@ abstract class Ball
     private $name;
     private $durchmesser;
     private $material;
+    private $frabe;
 
     /**
      * Ball constructor.
@@ -21,11 +22,12 @@ abstract class Ball
      * @param int $durchmesser
      * @param string $material
      */
-    function __construct(string $name, int $durchmesser, string $material)
+    function __construct(string $name, int $durchmesser, string $material, string $farbe)
     {
         $this->name = $name;
         $this->durchmesser = $durchmesser;
         $this->material = $material;
+        $this->frabe = $farbe;
     }
 
     /**
@@ -45,6 +47,10 @@ abstract class Ball
 
     public function getMaterial(){
         return $this->material;
+    }
+
+    public function getFarbe(){
+        return $this->frabe;
     }
 
     public function __toString()

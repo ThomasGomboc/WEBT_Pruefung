@@ -13,9 +13,9 @@ class American_Football extends Ball implements Ball_Interface
 {
     private $hight;
 
-    public function __construct($name, $durchmesser, $material, $hight)
+    public function __construct($name, $durchmesser, $material, $hight, $farbe)
     {
-        parent::__construct($name, $durchmesser, $material);
+        parent::__construct($name, $durchmesser, $material, $farbe);
         $this->hight=$hight;
     }
 

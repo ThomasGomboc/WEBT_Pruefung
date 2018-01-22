@@ -13,9 +13,9 @@ class Fussball extends Ball implements Ball_Interface
 {
     private $ballmuster;
 
-    public function __construct($name, $durchmesser, $material, $ballmuster)
+    public function __construct($name, $durchmesser, $material, $ballmuster, $farbe)
     {
-        parent::__construct($name, $durchmesser, $material);
+        parent::__construct($name, $durchmesser, $material, $farbe);
         $this->ballmuster = $ballmuster;
     }
     public function getVolumen() : float{

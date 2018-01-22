@@ -13,9 +13,9 @@ class Basketball extends Ball implements Ball_Interface
 {
     private $marke;
 
-    public function __construct($name, $durchmesser, $material, $marke)
+    public function __construct($name, $durchmesser, $material, $marke, $farbe)
     {
-        parent::__construct($name, $durchmesser, $material);
+        parent::__construct($name, $durchmesser, $material, $farbe);
         $this->marke = $marke;
     }
 

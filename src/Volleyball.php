@@ -13,9 +13,9 @@ class Volleyball extends Ball implements Ball_Interface
 {
     private $gewicht;
 
-    public function __construct($name, $durchmesser, $material, $gewicht)
+    public function __construct($name, $durchmesser, $material, $gewicht, $farbe)
     {
-        parent::__construct($name, $durchmesser, $material);
+        parent::__construct($name, $durchmesser, $material, $farbe);
         $this->gewicht = $gewicht;
     }
 
