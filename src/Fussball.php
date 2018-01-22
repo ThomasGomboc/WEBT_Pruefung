@@ -25,7 +25,7 @@ class Fussball extends Ball implements Ball_Interface
 
     public function __toString()
     {
-        return $this->getName().' mit dem Material '.$this->getMaterial().', dem Ballmuster '.' und einem Volumen von '.$this->getVolumen()."<br>";
+        return $this->getName().' mit dem Material '.$this->getMaterial().', dem Ballmuster '.' und einem Volumen von '.$this->getVolumen()." und der Farbe ".$this->getFarbe()."<br>";
     }
 
 }
